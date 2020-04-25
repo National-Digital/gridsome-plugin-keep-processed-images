@@ -1,6 +1,6 @@
 {
   "name": "@national-digital/gridsome-plugin-keep-processed-images",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Gridsome plugin for keeping processed images between builds",
   "main": "index.js",
   "scripts": {
