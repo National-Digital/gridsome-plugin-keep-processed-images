@@ -9,16 +9,14 @@ module.exports = function (api) {
   })
 }
 
-async function copyFiles (source, dest) {
+async function copyFiles(source, dest) {
   try {
     await fs.copy(source, dest)
-  } catch (err) {
-  }
+  } catch (err) {}
 }
 
-async function moveFiles (source, dest) {
+async function moveFiles(source, dest) {
   try {
     await fs.move(source, dest)
-  } catch (err) {
-  }
+  } catch (err) {}
 }
