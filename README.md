@@ -6,9 +6,9 @@ It does so by keeping a fresh copy of processed images on the `.cache` directory
 
 ## Install
 
-```node
-yarn add @national-digital/plugin-keep-processed-images
-npm install @national-digital/plugin-keep-processed-images
+```bash
+yarn add @national-digital/gridsome-plugin-keep-processed-images
+npm install @national-digital/gridsome-plugin-keep-processed-images
 ```
 
 ## Usage
@@ -18,7 +18,7 @@ module.exports = {
   siteName: "Gridsome",
   plugins: [
     {
-      use: "plugin-keep-processed-images",
+      use: "@national-digital/gridsome-plugin-keep-processed-images",
     },
   ],
 };
