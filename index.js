@@ -2,9 +2,11 @@ const fs = require('fs-extra')
 
 module.exports = function (api) {
   api.afterBuild(() => {
+    console.log(api);
     copyFiles(api.config.imagesDir, `${api.config.imageCacheDir}/`)
   })
   api.beforeBuild(() => {
+    console.log(api);
     moveFiles(`${api.config.imageCacheDir}/`, api.config.imagesDir)
   })
 }
