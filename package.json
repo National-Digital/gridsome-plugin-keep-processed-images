@@ -1,27 +1,27 @@
 {
+  "name": "@national-digital/gridsome-plugin-keep-processed-images",
   "version": "1.0.0",
-  "name": "gridsome-plugin-keep-processed-images",
   "description": "Gridsome plugin for keeping processed images between builds",
-  "homepage": "https://github.com/dominiquedutra/gridsome-plugin-keep-processed-images#readme",
-  "repository": "https://github.com/dominiquedutra/gridsome-plugin-keep-processed-images",
   "main": "index.js",
-  "author": "Dominique Dutra <ddutra@fibersals.com.br>",
-  "license": "MIT",
-  "files": [
-    "index.js"
-  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/National-Digital/gridsome-plugin-keep-processed-images.git"
+  },
   "keywords": [
     "gridsome",
     "gridsome-plugin",
     "images"
   ],
-  "publishConfig": {
-    "access": "public"
+  "author": "Dominique Dutra <ddutra@fibersals.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/National-Digital/gridsome-plugin-keep-processed-images/issues"
   },
+  "homepage": "https://github.com/National-Digital/gridsome-plugin-keep-processed-images#readme",
   "dependencies": {
     "fs-extra": "^7.0.1"
-  },
-  "engines": {
-    "node": ">=8"
   }
 }
